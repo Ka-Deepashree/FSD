@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Page with Web Storage</title>
+</head>
+<body>
+
+  <article>
+    <h2>Feedback Form</h2>
+    <form>
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="feedback">Your Feedback:</label><br>
+      <textarea id="feedback" name="feedback" rows="4" cols="40" required></textarea><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </article>
+
+  <aside>
+    <h3>About Web Storage</h3>
+    <p>
+      <strong>localStorage</strong> and <strong>sessionStorage</strong> are part of the Web Storage API in HTML5.
+      They allow websites to store data on the user's browser without using cookies.
+    </p>
+    <p>
+      <strong>localStorage</strong> stores data with no expiration date. It remains even after the browser is closed and reopened.
+    </p>
+    <p>
+      <strong>sessionStorage</strong> stores data only for a single session. Once the tab or browser is closed, the data is lost.
+    </p>
+    <p>
+      These are commonly used for saving form inputs, user preferences, temporary messages, or login states in client-side applications.
+    </p>
+  </aside>
+
+</body>
+</html>

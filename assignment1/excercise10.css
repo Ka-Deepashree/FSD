@@ -1,0 +1,11 @@
+nav a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+}
+
+nav a.active {
+    border-bottom: 2px solid blue;
+}
