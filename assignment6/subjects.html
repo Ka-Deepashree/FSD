@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Dashboard - Subjects</title>
+</head>
+<body>
+
+  <header>
+    <h1>Student Dashboard</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="subjects.html">Subjects</a></li>
+        <li><a href="attendance.html">Attendance</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Academic Performance</h2>
+
+      <article>
+        <h3>Mathematics</h3>
+        <p>Test Date: <time datetime="2025-04-10">April 10, 2025</time></p>
+        <p>
+          <label>Assignment Completion:</label><br />
+          <progress value="3" max="5"></progress>
+        </p>
+        <p>
+          <label>Test Score:</label><br />
+          <meter value="75" min="0" max="100" low="40" high="90" optimum="95">75</meter>
+        </p>
+        <button>Show Comments</button>
+        <details>
+          <summary>Teacher Feedback</summary>
+          <p>Good understanding of core concepts. Needs improvement in application problems.</p>
+        </details>
+      </article>
+
+      <article>
+        <h3>Science</h3>
+        <p>Test Date: <time datetime="2025-04-15">April 15, 2025</time></p>
+        <p>
+          <label>Assignment Completion:</label><br />
+          <progress value="4" max="5"></progress>
+        </p>
+        <p>
+          <label>Test Score:</label><br />
+          <meter value="82" min="0" max="100" low="40" high="90" optimum="95">82</meter>
+        </p>
+        <button>Show Comments</button>
+        <details>
+          <summary>Teacher Feedback</summary>
+          <p>Excellent analytical skills and practical understanding of experiments.</p>
+        </details>
+      </article>
+
+      <section>
+        <h3>Overall Performance</h3>
+        <p>
+          <label>Average Score:</label><br />
+          <meter value="78.5" min="0" max="100" low="40" high="90" optimum="95">78.5</meter>
+        </p>
+        <p>
+          <label>Total Assignment Completion:</label><br />
+          <progress value="7" max="10"></progress>
+        </p>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: info@college.edu</p>
+    <p>&copy; <time datetime="2025">2025</time> College Name.</p>
+  </footer>
+
+</body>
+</html>
